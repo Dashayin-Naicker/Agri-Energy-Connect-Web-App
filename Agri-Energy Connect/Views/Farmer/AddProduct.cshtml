@@ -1,0 +1,40 @@
+﻿@model ST10378422_PROG7311_POE.Models.Product
+@{
+    ViewBag.Title = "Add Product";
+    Layout = "~/Views/Shared/_NavLayout.cshtml";
+}
+
+<div class="container mt-4">
+    <h2 class="text-center text-success">Add a New Product</h2>
+    <p class="text-center text-muted">Fill in the form below to add a new product to your farm's inventory.</p>
+
+    <form asp-action="AddProduct" method="post">
+        @Html.AntiForgeryToken()
+
+        <!-- Product Name -->
+        <div class="form-group mb-3">
+            <label for="Name" class="form-label">Product Name</label>
+            <input asp-for="Name" class="form-control" required />
+            @Html.ValidationMessageFor(model => model.Name, "", new { @class = "text-danger" })
+        </div>
+
+        <!-- Category -->
+        <div class="form-group mb-3">
+            <label for="Category" class="form-label">Category</label>
+            <input asp-for="Category" class="form-control" required />
+            @Html.ValidationMessageFor(model => model.Category, "", new { @class = "text-danger" })
+        </div>
+
+        <!-- Production Date -->
+        <div class="form-group mb-3">
+            <label for="ProductionDate" class="form-label">Production Date</label>
+            <input asp-for="ProductionDate" class="form-control" type="date" required />
+            @Html.ValidationMessageFor(model => model.ProductionDate, "", new { @class = "text-danger" })
+        </div>
+
+        <!-- Submit Button -->
+        <div class="form-group mb-3">
+            <button type="submit" class="btn btn-success btn-block">Add Product</button>
+        </div>
+    </form>
+</div>

@@ -1,0 +1,541 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\dasha\\OneDrive - ADvTECH Ltd\\PROG7311\\ST10378422 PROG7311 POE\\obj\\Debug\\net9.0\\scopedcss\\projectbundle\\ST10378422 PROG7311 POE.bundle.scp.css",
+      "PackagePath": "staticwebassets\\ST10378422 PROG7311 POE.g1r0cx4kge.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Users\\dasha\\OneDrive - ADvTECH Ltd\\PROG7311\\ST10378422 PROG7311 POE\\wwwroot\\css\\main.css",
+      "PackagePath": "staticwebassets\\css\\main.css"
+    },
+    {
+      "Id": "C:\\Users\\dasha\\OneDrive - ADvTECH Ltd\\PROG7311\\ST10378422 PROG7311 POE\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "C:\\Users\\dasha\\OneDrive - ADvTECH Ltd\\PROG7311\\ST10378422 PROG7311 POE\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\dasha\\OneDrive - ADvTECH Ltd\\PROG7311\\ST10378422 PROG7311 POE\\wwwroot\\img\\apple-touch-icon.png",
+      "PackagePath": "staticwebassets\\img\\apple-touch-icon.png"
+    },
+    {
+      "Id": "C:\\Users\\dasha\\OneDrive - ADvTECH Ltd\\PROG7311\\ST10378422 PROG7311 POE\\wwwroot\\img\\blog\\blog-1.jpg",
+      "PackagePath": "staticwebassets\\img\\blog\\blog-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\dasha\\OneDrive - ADvTECH Ltd\\PROG7311\\ST10378422 PROG7311 POE\\wwwroot\\img\\blog\\blog-2.jpg",
+      "PackagePath": "staticwebassets\\img\\blog\\blog-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\dasha\\OneDrive - ADvTECH Ltd\\PROG7311\\ST10378422 PROG7311 POE\\wwwroot\\img\\blog\\blog-3.jpg",
+      "PackagePath": "staticwebassets\\img\\blog\\blog-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\dasha\\OneDrive - ADvTECH Ltd\\PROG7311\\ST10378422 PROG7311 POE\\wwwroot\\img\\blog\\blog-4.jpg",
+      "PackagePath": "staticwebassets\\img\\blog\\blog-4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\dasha\\OneDrive - ADvTECH Ltd\\PROG7311\\ST10378422 PROG7311 POE\\wwwroot\\img\\blog\\blog-5.jpg",
+      "PackagePath": "staticwebassets\\img\\blog\\blog-5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\dasha\\OneDrive - ADvTECH Ltd\\PROG7311\\ST10378422 PROG7311 POE\\wwwroot\\img\\blog\\blog-6.jpg",
+      "PackagePath": "staticwebassets\\img\\blog\\blog-6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\dasha\\OneDrive - ADvTECH Ltd\\PROG7311\\ST10378422 PROG7311 POE\\wwwroot\\img\\blog\\blog-author.jpg",
+      "PackagePath": "staticwebassets\\img\\blog\\blog-author.jpg"
+    },
+    {
+      "Id": "C:\\Users\\dasha\\OneDrive - ADvTECH Ltd\\PROG7311\\ST10378422 PROG7311 POE\\wwwroot\\img\\blog\\blog-inside-post.jpg",
+      "PackagePath": "staticwebassets\\img\\blog\\blog-inside-post.jpg"
+    },
+    {
+      "Id": "C:\\Users\\dasha\\OneDrive - ADvTECH Ltd\\PROG7311\\ST10378422 PROG7311 POE\\wwwroot\\img\\blog\\blog-recent-1.jpg",
+      "PackagePath": "staticwebassets\\img\\blog\\blog-recent-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\dasha\\OneDrive - ADvTECH Ltd\\PROG7311\\ST10378422 PROG7311 POE\\wwwroot\\img\\blog\\blog-recent-2.jpg",
+      "PackagePath": "staticwebassets\\img\\blog\\blog-recent-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\dasha\\OneDrive - ADvTECH Ltd\\PROG7311\\ST10378422 PROG7311 POE\\wwwroot\\img\\blog\\blog-recent-3.jpg",
+      "PackagePath": "staticwebassets\\img\\blog\\blog-recent-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\dasha\\OneDrive - ADvTECH Ltd\\PROG7311\\ST10378422 PROG7311 POE\\wwwroot\\img\\blog\\blog-recent-4.jpg",
+      "PackagePath": "staticwebassets\\img\\blog\\blog-recent-4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\dasha\\OneDrive - ADvTECH Ltd\\PROG7311\\ST10378422 PROG7311 POE\\wwwroot\\img\\blog\\blog-recent-5.jpg",
+      "PackagePath": "staticwebassets\\img\\blog\\blog-recent-5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\dasha\\OneDrive - ADvTECH Ltd\\PROG7311\\ST10378422 PROG7311 POE\\wwwroot\\img\\blog\\comments-1.jpg",
+      "PackagePath": "staticwebassets\\img\\blog\\comments-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\dasha\\OneDrive - ADvTECH Ltd\\PROG7311\\ST10378422 PROG7311 POE\\wwwroot\\img\\blog\\comments-2.jpg",
+      "PackagePath": "staticwebassets\\img\\blog\\comments-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\dasha\\OneDrive - ADvTECH Ltd\\PROG7311\\ST10378422 PROG7311 POE\\wwwroot\\img\\blog\\comments-3.jpg",
+      "PackagePath": "staticwebassets\\img\\blog\\comments-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\dasha\\OneDrive - ADvTECH Ltd\\PROG7311\\ST10378422 PROG7311 POE\\wwwroot\\img\\blog\\comments-4.jpg",
+      "PackagePath": "staticwebassets\\img\\blog\\comments-4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\dasha\\OneDrive - ADvTECH Ltd\\PROG7311\\ST10378422 PROG7311 POE\\wwwroot\\img\\blog\\comments-5.jpg",
+      "PackagePath": "staticwebassets\\img\\blog\\comments-5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\dasha\\OneDrive - ADvTECH Ltd\\PROG7311\\ST10378422 PROG7311 POE\\wwwroot\\img\\blog\\comments-6.jpg",
+      "PackagePath": "staticwebassets\\img\\blog\\comments-6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\dasha\\OneDrive - ADvTECH Ltd\\PROG7311\\ST10378422 PROG7311 POE\\wwwroot\\img\\favicon.png",
+      "PackagePath": "staticwebassets\\img\\favicon.png"
+    },
+    {
+      "Id": "C:\\Users\\dasha\\OneDrive - ADvTECH Ltd\\PROG7311\\ST10378422 PROG7311 POE\\wwwroot\\img\\hero_1.jpg",
+      "PackagePath": "staticwebassets\\img\\hero_1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\dasha\\OneDrive - ADvTECH Ltd\\PROG7311\\ST10378422 PROG7311 POE\\wwwroot\\img\\hero_2.jpg",
+      "PackagePath": "staticwebassets\\img\\hero_2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\dasha\\OneDrive - ADvTECH Ltd\\PROG7311\\ST10378422 PROG7311 POE\\wwwroot\\img\\hero_3.jpg",
+      "PackagePath": "staticwebassets\\img\\hero_3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\dasha\\OneDrive - ADvTECH Ltd\\PROG7311\\ST10378422 PROG7311 POE\\wwwroot\\img\\hero_4.jpg",
+      "PackagePath": "staticwebassets\\img\\hero_4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\dasha\\OneDrive - ADvTECH Ltd\\PROG7311\\ST10378422 PROG7311 POE\\wwwroot\\img\\hero_5.jpg",
+      "PackagePath": "staticwebassets\\img\\hero_5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\dasha\\OneDrive - ADvTECH Ltd\\PROG7311\\ST10378422 PROG7311 POE\\wwwroot\\img\\img_long_5.jpg",
+      "PackagePath": "staticwebassets\\img\\img_long_5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\dasha\\OneDrive - ADvTECH Ltd\\PROG7311\\ST10378422 PROG7311 POE\\wwwroot\\img\\img_sq_1.jpg",
+      "PackagePath": "staticwebassets\\img\\img_sq_1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\dasha\\OneDrive - ADvTECH Ltd\\PROG7311\\ST10378422 PROG7311 POE\\wwwroot\\img\\img_sq_3.jpg",
+      "PackagePath": "staticwebassets\\img\\img_sq_3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\dasha\\OneDrive - ADvTECH Ltd\\PROG7311\\ST10378422 PROG7311 POE\\wwwroot\\img\\img_sq_4.jpg",
+      "PackagePath": "staticwebassets\\img\\img_sq_4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\dasha\\OneDrive - ADvTECH Ltd\\PROG7311\\ST10378422 PROG7311 POE\\wwwroot\\img\\img_sq_5.jpg",
+      "PackagePath": "staticwebassets\\img\\img_sq_5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\dasha\\OneDrive - ADvTECH Ltd\\PROG7311\\ST10378422 PROG7311 POE\\wwwroot\\img\\img_sq_6.jpg",
+      "PackagePath": "staticwebassets\\img\\img_sq_6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\dasha\\OneDrive - ADvTECH Ltd\\PROG7311\\ST10378422 PROG7311 POE\\wwwroot\\img\\img_sq_8.jpg",
+      "PackagePath": "staticwebassets\\img\\img_sq_8.jpg"
+    },
+    {
+      "Id": "C:\\Users\\dasha\\OneDrive - ADvTECH Ltd\\PROG7311\\ST10378422 PROG7311 POE\\wwwroot\\img\\logo.png",
+      "PackagePath": "staticwebassets\\img\\logo.png"
+    },
+    {
+      "Id": "C:\\Users\\dasha\\OneDrive - ADvTECH Ltd\\PROG7311\\ST10378422 PROG7311 POE\\wwwroot\\img\\page-title-bg.webp",
+      "PackagePath": "staticwebassets\\img\\page-title-bg.webp"
+    },
+    {
+      "Id": "C:\\Users\\dasha\\OneDrive - ADvTECH Ltd\\PROG7311\\ST10378422 PROG7311 POE\\wwwroot\\img\\team\\team-1.jpg",
+      "PackagePath": "staticwebassets\\img\\team\\team-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\dasha\\OneDrive - ADvTECH Ltd\\PROG7311\\ST10378422 PROG7311 POE\\wwwroot\\img\\team\\team-2.jpg",
+      "PackagePath": "staticwebassets\\img\\team\\team-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\dasha\\OneDrive - ADvTECH Ltd\\PROG7311\\ST10378422 PROG7311 POE\\wwwroot\\img\\team\\team-3.jpg",
+      "PackagePath": "staticwebassets\\img\\team\\team-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\dasha\\OneDrive - ADvTECH Ltd\\PROG7311\\ST10378422 PROG7311 POE\\wwwroot\\img\\team\\team-4.jpg",
+      "PackagePath": "staticwebassets\\img\\team\\team-4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\dasha\\OneDrive - ADvTECH Ltd\\PROG7311\\ST10378422 PROG7311 POE\\wwwroot\\img\\testimonials\\testimonials-1.jpg",
+      "PackagePath": "staticwebassets\\img\\testimonials\\testimonials-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\dasha\\OneDrive - ADvTECH Ltd\\PROG7311\\ST10378422 PROG7311 POE\\wwwroot\\img\\testimonials\\testimonials-2.jpg",
+      "PackagePath": "staticwebassets\\img\\testimonials\\testimonials-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\dasha\\OneDrive - ADvTECH Ltd\\PROG7311\\ST10378422 PROG7311 POE\\wwwroot\\img\\testimonials\\testimonials-3.jpg",
+      "PackagePath": "staticwebassets\\img\\testimonials\\testimonials-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\dasha\\OneDrive - ADvTECH Ltd\\PROG7311\\ST10378422 PROG7311 POE\\wwwroot\\img\\testimonials\\testimonials-4.jpg",
+      "PackagePath": "staticwebassets\\img\\testimonials\\testimonials-4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\dasha\\OneDrive - ADvTECH Ltd\\PROG7311\\ST10378422 PROG7311 POE\\wwwroot\\js\\main.js",
+      "PackagePath": "staticwebassets\\js\\main.js"
+    },
+    {
+      "Id": "C:\\Users\\dasha\\OneDrive - ADvTECH Ltd\\PROG7311\\ST10378422 PROG7311 POE\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "C:\\Users\\dasha\\OneDrive - ADvTECH Ltd\\PROG7311\\ST10378422 PROG7311 POE\\wwwroot\\lib\\aos\\aos.cjs.js",
+      "PackagePath": "staticwebassets\\lib\\aos\\aos.cjs.js"
+    },
+    {
+      "Id": "C:\\Users\\dasha\\OneDrive - ADvTECH Ltd\\PROG7311\\ST10378422 PROG7311 POE\\wwwroot\\lib\\aos\\aos.css",
+      "PackagePath": "staticwebassets\\lib\\aos\\aos.css"
+    },
+    {
+      "Id": "C:\\Users\\dasha\\OneDrive - ADvTECH Ltd\\PROG7311\\ST10378422 PROG7311 POE\\wwwroot\\lib\\aos\\aos.esm.js",
+      "PackagePath": "staticwebassets\\lib\\aos\\aos.esm.js"
+    },
+    {
+      "Id": "C:\\Users\\dasha\\OneDrive - ADvTECH Ltd\\PROG7311\\ST10378422 PROG7311 POE\\wwwroot\\lib\\aos\\aos.js",
+      "PackagePath": "staticwebassets\\lib\\aos\\aos.js"
+    },
+    {
+      "Id": "C:\\Users\\dasha\\OneDrive - ADvTECH Ltd\\PROG7311\\ST10378422 PROG7311 POE\\wwwroot\\lib\\aos\\aos.js.map",
+      "PackagePath": "staticwebassets\\lib\\aos\\aos.js.map"
+    },
+    {
+      "Id": "C:\\Users\\dasha\\OneDrive - ADvTECH Ltd\\PROG7311\\ST10378422 PROG7311 POE\\wwwroot\\lib\\bootstrap-icons\\bootstrap-icons.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap-icons\\bootstrap-icons.css"
+    },
+    {
+      "Id": "C:\\Users\\dasha\\OneDrive - ADvTECH Ltd\\PROG7311\\ST10378422 PROG7311 POE\\wwwroot\\lib\\bootstrap-icons\\bootstrap-icons.json",
+      "PackagePath": "staticwebassets\\lib\\bootstrap-icons\\bootstrap-icons.json"
+    },
+    {
+      "Id": "C:\\Users\\dasha\\OneDrive - ADvTECH Ltd\\PROG7311\\ST10378422 PROG7311 POE\\wwwroot\\lib\\bootstrap-icons\\bootstrap-icons.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap-icons\\bootstrap-icons.min.css"
+    },
+    {
+      "Id": "C:\\Users\\dasha\\OneDrive - ADvTECH Ltd\\PROG7311\\ST10378422 PROG7311 POE\\wwwroot\\lib\\bootstrap-icons\\bootstrap-icons.scss",
+      "PackagePath": "staticwebassets\\lib\\bootstrap-icons\\bootstrap-icons.scss"
+    },
+    {
+      "Id": "C:\\Users\\dasha\\OneDrive - ADvTECH Ltd\\PROG7311\\ST10378422 PROG7311 POE\\wwwroot\\lib\\bootstrap-icons\\fonts\\bootstrap-icons.woff",
+      "PackagePath": "staticwebassets\\lib\\bootstrap-icons\\fonts\\bootstrap-icons.woff"
+    },
+    {
+      "Id": "C:\\Users\\dasha\\OneDrive - ADvTECH Ltd\\PROG7311\\ST10378422 PROG7311 POE\\wwwroot\\lib\\bootstrap-icons\\fonts\\bootstrap-icons.woff2",
+      "PackagePath": "staticwebassets\\lib\\bootstrap-icons\\fonts\\bootstrap-icons.woff2"
+    },
+    {
+      "Id": "C:\\Users\\dasha\\OneDrive - ADvTECH Ltd\\PROG7311\\ST10378422 PROG7311 POE\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "C:\\Users\\dasha\\OneDrive - ADvTECH Ltd\\PROG7311\\ST10378422 PROG7311 POE\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "C:\\Users\\dasha\\OneDrive - ADvTECH Ltd\\PROG7311\\ST10378422 PROG7311 POE\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "C:\\Users\\dasha\\OneDrive - ADvTECH Ltd\\PROG7311\\ST10378422 PROG7311 POE\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "C:\\Users\\dasha\\OneDrive - ADvTECH Ltd\\PROG7311\\ST10378422 PROG7311 POE\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\dasha\\OneDrive - ADvTECH Ltd\\PROG7311\\ST10378422 PROG7311 POE\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\dasha\\OneDrive - ADvTECH Ltd\\PROG7311\\ST10378422 PROG7311 POE\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\dasha\\OneDrive - ADvTECH Ltd\\PROG7311\\ST10378422 PROG7311 POE\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\dasha\\OneDrive - ADvTECH Ltd\\PROG7311\\ST10378422 PROG7311 POE\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\dasha\\OneDrive - ADvTECH Ltd\\PROG7311\\ST10378422 PROG7311 POE\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "C:\\Users\\dasha\\OneDrive - ADvTECH Ltd\\PROG7311\\ST10378422 PROG7311 POE\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "C:\\Users\\dasha\\OneDrive - ADvTECH Ltd\\PROG7311\\ST10378422 PROG7311 POE\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "C:\\Users\\dasha\\OneDrive - ADvTECH Ltd\\PROG7311\\ST10378422 PROG7311 POE\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\dasha\\OneDrive - ADvTECH Ltd\\PROG7311\\ST10378422 PROG7311 POE\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\dasha\\OneDrive - ADvTECH Ltd\\PROG7311\\ST10378422 PROG7311 POE\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\dasha\\OneDrive - ADvTECH Ltd\\PROG7311\\ST10378422 PROG7311 POE\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\dasha\\OneDrive - ADvTECH Ltd\\PROG7311\\ST10378422 PROG7311 POE\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\dasha\\OneDrive - ADvTECH Ltd\\PROG7311\\ST10378422 PROG7311 POE\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "C:\\Users\\dasha\\OneDrive - ADvTECH Ltd\\PROG7311\\ST10378422 PROG7311 POE\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "C:\\Users\\dasha\\OneDrive - ADvTECH Ltd\\PROG7311\\ST10378422 PROG7311 POE\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "C:\\Users\\dasha\\OneDrive - ADvTECH Ltd\\PROG7311\\ST10378422 PROG7311 POE\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\dasha\\OneDrive - ADvTECH Ltd\\PROG7311\\ST10378422 PROG7311 POE\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\dasha\\OneDrive - ADvTECH Ltd\\PROG7311\\ST10378422 PROG7311 POE\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\dasha\\OneDrive - ADvTECH Ltd\\PROG7311\\ST10378422 PROG7311 POE\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\dasha\\OneDrive - ADvTECH Ltd\\PROG7311\\ST10378422 PROG7311 POE\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\dasha\\OneDrive - ADvTECH Ltd\\PROG7311\\ST10378422 PROG7311 POE\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\Users\\dasha\\OneDrive - ADvTECH Ltd\\PROG7311\\ST10378422 PROG7311 POE\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "C:\\Users\\dasha\\OneDrive - ADvTECH Ltd\\PROG7311\\ST10378422 PROG7311 POE\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\dasha\\OneDrive - ADvTECH Ltd\\PROG7311\\ST10378422 PROG7311 POE\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\dasha\\OneDrive - ADvTECH Ltd\\PROG7311\\ST10378422 PROG7311 POE\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\dasha\\OneDrive - ADvTECH Ltd\\PROG7311\\ST10378422 PROG7311 POE\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\dasha\\OneDrive - ADvTECH Ltd\\PROG7311\\ST10378422 PROG7311 POE\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\dasha\\OneDrive - ADvTECH Ltd\\PROG7311\\ST10378422 PROG7311 POE\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\dasha\\OneDrive - ADvTECH Ltd\\PROG7311\\ST10378422 PROG7311 POE\\wwwroot\\lib\\bootstrap\\dist\\css\\prb.txt",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\prb.txt"
+    },
+    {
+      "Id": "C:\\Users\\dasha\\OneDrive - ADvTECH Ltd\\PROG7311\\ST10378422 PROG7311 POE\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "C:\\Users\\dasha\\OneDrive - ADvTECH Ltd\\PROG7311\\ST10378422 PROG7311 POE\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "C:\\Users\\dasha\\OneDrive - ADvTECH Ltd\\PROG7311\\ST10378422 PROG7311 POE\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "C:\\Users\\dasha\\OneDrive - ADvTECH Ltd\\PROG7311\\ST10378422 PROG7311 POE\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\dasha\\OneDrive - ADvTECH Ltd\\PROG7311\\ST10378422 PROG7311 POE\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "C:\\Users\\dasha\\OneDrive - ADvTECH Ltd\\PROG7311\\ST10378422 PROG7311 POE\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "C:\\Users\\dasha\\OneDrive - ADvTECH Ltd\\PROG7311\\ST10378422 PROG7311 POE\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "C:\\Users\\dasha\\OneDrive - ADvTECH Ltd\\PROG7311\\ST10378422 PROG7311 POE\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\dasha\\OneDrive - ADvTECH Ltd\\PROG7311\\ST10378422 PROG7311 POE\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "C:\\Users\\dasha\\OneDrive - ADvTECH Ltd\\PROG7311\\ST10378422 PROG7311 POE\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "C:\\Users\\dasha\\OneDrive - ADvTECH Ltd\\PROG7311\\ST10378422 PROG7311 POE\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\dasha\\OneDrive - ADvTECH Ltd\\PROG7311\\ST10378422 PROG7311 POE\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\dasha\\OneDrive - ADvTECH Ltd\\PROG7311\\ST10378422 PROG7311 POE\\wwwroot\\lib\\glightbox\\css\\glightbox.css",
+      "PackagePath": "staticwebassets\\lib\\glightbox\\css\\glightbox.css"
+    },
+    {
+      "Id": "C:\\Users\\dasha\\OneDrive - ADvTECH Ltd\\PROG7311\\ST10378422 PROG7311 POE\\wwwroot\\lib\\glightbox\\css\\glightbox.min.css",
+      "PackagePath": "staticwebassets\\lib\\glightbox\\css\\glightbox.min.css"
+    },
+    {
+      "Id": "C:\\Users\\dasha\\OneDrive - ADvTECH Ltd\\PROG7311\\ST10378422 PROG7311 POE\\wwwroot\\lib\\glightbox\\js\\glightbox.js",
+      "PackagePath": "staticwebassets\\lib\\glightbox\\js\\glightbox.js"
+    },
+    {
+      "Id": "C:\\Users\\dasha\\OneDrive - ADvTECH Ltd\\PROG7311\\ST10378422 PROG7311 POE\\wwwroot\\lib\\glightbox\\js\\glightbox.min.js",
+      "PackagePath": "staticwebassets\\lib\\glightbox\\js\\glightbox.min.js"
+    },
+    {
+      "Id": "C:\\Users\\dasha\\OneDrive - ADvTECH Ltd\\PROG7311\\ST10378422 PROG7311 POE\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\dasha\\OneDrive - ADvTECH Ltd\\PROG7311\\ST10378422 PROG7311 POE\\wwwroot\\lib\\jquery-validation-unobtrusive\\dist\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\dist\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "C:\\Users\\dasha\\OneDrive - ADvTECH Ltd\\PROG7311\\ST10378422 PROG7311 POE\\wwwroot\\lib\\jquery-validation-unobtrusive\\dist\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\dist\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "C:\\Users\\dasha\\OneDrive - ADvTECH Ltd\\PROG7311\\ST10378422 PROG7311 POE\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "C:\\Users\\dasha\\OneDrive - ADvTECH Ltd\\PROG7311\\ST10378422 PROG7311 POE\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "C:\\Users\\dasha\\OneDrive - ADvTECH Ltd\\PROG7311\\ST10378422 PROG7311 POE\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "C:\\Users\\dasha\\OneDrive - ADvTECH Ltd\\PROG7311\\ST10378422 PROG7311 POE\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "C:\\Users\\dasha\\OneDrive - ADvTECH Ltd\\PROG7311\\ST10378422 PROG7311 POE\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "C:\\Users\\dasha\\OneDrive - ADvTECH Ltd\\PROG7311\\ST10378422 PROG7311 POE\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\dasha\\OneDrive - ADvTECH Ltd\\PROG7311\\ST10378422 PROG7311 POE\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "C:\\Users\\dasha\\OneDrive - ADvTECH Ltd\\PROG7311\\ST10378422 PROG7311 POE\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "C:\\Users\\dasha\\OneDrive - ADvTECH Ltd\\PROG7311\\ST10378422 PROG7311 POE\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "C:\\Users\\dasha\\OneDrive - ADvTECH Ltd\\PROG7311\\ST10378422 PROG7311 POE\\wwwroot\\lib\\jquery\\dist\\jquery.slim.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.slim.js"
+    },
+    {
+      "Id": "C:\\Users\\dasha\\OneDrive - ADvTECH Ltd\\PROG7311\\ST10378422 PROG7311 POE\\wwwroot\\lib\\jquery\\dist\\jquery.slim.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.slim.min.js"
+    },
+    {
+      "Id": "C:\\Users\\dasha\\OneDrive - ADvTECH Ltd\\PROG7311\\ST10378422 PROG7311 POE\\wwwroot\\lib\\jquery\\dist\\jquery.slim.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.slim.min.map"
+    },
+    {
+      "Id": "C:\\Users\\dasha\\OneDrive - ADvTECH Ltd\\PROG7311\\ST10378422 PROG7311 POE\\wwwroot\\lib\\php-email-form\\validate.js",
+      "PackagePath": "staticwebassets\\lib\\php-email-form\\validate.js"
+    },
+    {
+      "Id": "C:\\Users\\dasha\\OneDrive - ADvTECH Ltd\\PROG7311\\ST10378422 PROG7311 POE\\wwwroot\\lib\\swiper\\swiper-bundle.min.css",
+      "PackagePath": "staticwebassets\\lib\\swiper\\swiper-bundle.min.css"
+    },
+    {
+      "Id": "C:\\Users\\dasha\\OneDrive - ADvTECH Ltd\\PROG7311\\ST10378422 PROG7311 POE\\wwwroot\\lib\\swiper\\swiper-bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\swiper\\swiper-bundle.min.js"
+    },
+    {
+      "Id": "C:\\Users\\dasha\\OneDrive - ADvTECH Ltd\\PROG7311\\ST10378422 PROG7311 POE\\wwwroot\\lib\\swiper\\swiper-bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\swiper\\swiper-bundle.min.js.map"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.ST10378422 PROG7311 POE.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.ST10378422 PROG7311 POE.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.build.ST10378422 PROG7311 POE.props",
+      "PackagePath": "build\\ST10378422 PROG7311 POE.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.buildMultiTargeting.ST10378422 PROG7311 POE.props",
+      "PackagePath": "buildMultiTargeting\\ST10378422 PROG7311 POE.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.buildTransitive.ST10378422 PROG7311 POE.props",
+      "PackagePath": "buildTransitive\\ST10378422 PROG7311 POE.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

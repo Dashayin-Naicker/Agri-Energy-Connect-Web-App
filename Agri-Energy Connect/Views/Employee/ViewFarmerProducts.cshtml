@@ -1,0 +1,57 @@
+﻿@model IEnumerable<ST10378422_PROG7311_POE.Models.Product>
+
+@{
+    ViewData["Title"] = "Farmer Products";
+    Layout = "~/Views/Shared/_NavLayout.cshtml";
+}
+
+<div class="container mt-5">
+    <div class="card shadow-lg">
+        <div class="text-center mt-4 mb-3">
+            <h2 class="text-success">All Farmer Products</h2>
+        </div>
+        <div class="card-body">
+            @if (Model != null && Model.Any())
+            {
+                <div class="table-responsive">
+                    <table class="table table-bordered table-striped">
+                        <thead class="table-success">
+                            <tr>
+                                <th scope="col">Product Name</th>
+                                <th scope="col">Category</th>
+                                <th scope="col">Production Date</th>
+                                <th scope="col">Farmer Name</th>
+                                <th scope="col">Actions</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            @foreach (var product in Model)
+                            {
+                                <tr>
+                                    <td>@product.Name</td>
+                                    <td>@product.Category</td>
+                                    <td>@product.ProductionDate.ToString("yyyy-MM-dd")</td>
+                                    <td>@product.Farmer?.FullName</td>
+                                    <td>
+                                        <form asp-action="DeleteProduct" method="post" asp-route-id="@product.ProductId" onsubmit="return confirm('Are you sure you want to delete this product?');">
+                                            <button type="submit" class="btn btn-sm btn-danger">Delete</button>
+                                        </form>
+                                    </td>
+                                </tr>
+                            }
+                        </tbody>
+                    </table>
+                </div>
+            }
+            else
+            {
+                <div class="alert alert-warning text-center" role="alert">
+                    No products found.
+                </div>
+            }
+        </div>
+        <div class="card-footer text-end">
+            <a class="btn btn-outline-success" asp-controller="Employee" asp-action="FilterProducts">Filter Products</a>
+        </div>
+    </div>
+</div>

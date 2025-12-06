@@ -1,0 +1,361 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <title>Agri-Energy Connect</title>
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+
+    <!-- Favicons -->
+    <link href="img/favicon.png" rel="icon">
+    <link href="img/apple-touch-icon.png" rel="apple-touch-icon">
+
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com" rel="preconnect">
+    <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Marcellus:wght@400&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet">
+
+    <!-- Vendor CSS Files -->
+    <link href="lib/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="lib/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+    <link href="lib/aos/aos.css" rel="stylesheet">
+    <link href="lib/swiper/swiper-bundle.min.css" rel="stylesheet">
+    <link href="lib/glightbox/css/glightbox.min.css" rel="stylesheet">
+
+    <!-- Main CSS File -->
+    <link href="css/main.css" rel="stylesheet">
+
+    @RenderSection("Styles", required: false)
+
+</head>
+
+<body class="index-page">
+
+    <header id="header" class="header d-flex align-items-center position-relative">
+        <div class="container-fluid container-xl position-relative d-flex align-items-center justify-content-between">
+
+            <a href="" class="logo d-flex align-items-center">
+                <img src="img/logo.png" alt="Agriculture">
+                <h1 class="sitename ms-2 mb-0" style="font-size: 1.5rem; color: green;">Agri-Energy Connect</h1>
+            </a>
+
+
+
+            <nav id="navmenu" class="navmenu">
+                <ul>
+                    <!-- Home Link -->
+                    <li><a href="/" class="active">Home</a></li>
+
+
+                    <!-- Dropdown for Authentication-related pages (Register/Login) -->
+                    <li class="dropdown">
+                        <a href="#"><span>Account</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
+                        <ul>
+                            <!-- Register Link (only shown if the user is not logged in) -->
+                            @if (!User.Identity.IsAuthenticated)
+                            {
+                                <li><a href="/Account/Register">Register</a></li>
+                            }
+
+                            <!-- Login Link (only shown if the user is not logged in) -->
+                            @if (!User.Identity.IsAuthenticated)
+                            {
+                                <li><a href="/Account/Login">Login</a></li>
+                            }
+
+                            <!-- Manage Profile Link (only shown if the user is logged in) -->
+                            @if (User.Identity.IsAuthenticated)
+                            {
+                                @if (User.IsInRole("Farmer"))
+                                {
+                                    <li><a href="/Farmer/Index">Farmer Dashboard</a></li>
+                                }
+                                else if (User.IsInRole("Employee"))
+                                {
+                                    <li><a href="/Employee/Index">Employee Dashboard</a></li>
+                                }
+
+                                <li class="text-center">
+                                    <form asp-controller="Account" asp-action="Logout" method="post" class="nav-item">
+                                        @Html.AntiForgeryToken()
+                                        <button type="submit" class="btn btn-outline-danger btn-sm">Logout</button>
+                                    </form>
+                                </li>
+                            }
+                        </ul>
+                    </li>
+
+
+
+                </ul>
+                <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
+            </nav>
+
+        </div>
+    </header>
+
+    <main class="main">
+
+        <!-- Hero Section -->
+        <section id="hero" class="hero section dark-background">
+
+            <div id="hero-carousel" class="carousel slide carousel-fade" data-bs-ride="carousel" data-bs-interval="5000">
+
+                <div class="carousel-item active">
+                    <img src="img/hero_1.jpg" alt="">
+                    <div class="carousel-container">
+                        <h2>Farming is the best solution of worlds starvation</h2>
+                    </div>
+                </div><!-- End Carousel Item -->
+
+                <div class="carousel-item">
+                    <img src="img/hero_2.jpg" alt="">
+                    <div class="carousel-container">
+                        <h2>Organic vegetables is good for health</h2>
+                    </div>
+                </div><!-- End Carousel Item -->
+
+                <div class="carousel-item">
+                    <img src="img/hero_3.jpg" alt="">
+                    <div class="carousel-container">
+                        <h2>Providing Fresh Produce Every Single Day</h2>
+                    </div>
+                </div><!-- End Carousel Item -->
+
+                <div class="carousel-item">
+                    <img src="img/hero_4.jpg" alt="">
+                    <div class="carousel-container">
+                        <h2>Farming as a Passion</h2>
+                    </div>
+                </div><!-- End Carousel Item -->
+
+                <div class="carousel-item">
+                    <img src="img/hero_5.jpg" alt="">
+                    <div class="carousel-container">
+                        <h2>Good Food For All</h2>
+                    </div>
+                </div><!-- End Carousel Item -->
+
+                <a class="carousel-control-prev" href="#hero-carousel" role="button" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon bi bi-chevron-left" aria-hidden="true"></span>
+                </a>
+
+                <a class="carousel-control-next" href="#hero-carousel" role="button" data-bs-slide="next">
+                    <span class="carousel-control-next-icon bi bi-chevron-right" aria-hidden="true"></span>
+                </a>
+
+                <ol class="carousel-indicators"></ol>
+
+            </div>
+
+        </section><!-- /Hero Section -->
+        <!-- Services Section -->
+        <section id="services" class="services section">
+            <div class="container section-title" data-aos="fade-up">
+                <h2>SERVICES</h2>
+                <p>Empowering Local Farmers Through Technology</p>
+            </div>
+
+            <div class="content">
+                <div class="container">
+                    <div class="row g-0">
+
+                        <div class="col-lg-3 col-md-6">
+                            <div class="service-item">
+                                <span class="number">01</span>
+                                <div class="service-item-icon">
+                                    <i class="fas fa-user-plus fa-2x"></i>
+                                </div>
+                                <div class="service-item-content">
+                                    <h3 class="service-heading">Farmer Registration</h3>
+                                    <p>Register and manage your profile to start selling fresh produce directly from your farm.</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-3 col-md-6">
+                            <div class="service-item">
+                                <span class="number">02</span>
+                                <div class="service-item-icon">
+                                    <i class="fas fa-seedling fa-2x"></i>
+                                </div>
+                                <div class="service-item-content">
+                                    <h3 class="service-heading">Product Listings</h3>
+                                    <p>Farmers can add, update, and manage their available products with pricing and quantity.</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-3 col-md-6">
+                            <div class="service-item">
+                                <span class="number">03</span>
+                                <div class="service-item-icon">
+                                    <i class="fas fa-search fa-2x"></i>
+                                </div>
+                                <div class="service-item-content">
+                                    <h3 class="service-heading">Product Filtering</h3>
+                                    <p>Employees can filter available produce by type and quantity to support efficient sourcing.</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-3 col-md-6">
+                            <div class="service-item">
+                                <span class="number">04</span>
+                                <div class="service-item-icon">
+                                    <i class="fas fa-users fa-2x"></i>
+                                </div>
+                                <div class="service-item-content">
+                                    <h3 class="service-heading">Farmer Management</h3>
+                                    <p>Admin staff can add new farmers and manage existing profiles for transparency and control.</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-3 col-md-6">
+                            <div class="service-item">
+                                <span class="number">05</span>
+                                <div class="service-item-icon">
+                                    <i class="fas fa-lock fa-2x"></i>
+                                </div>
+                                <div class="service-item-content">
+                                    <h3 class="service-heading">Role-Based Access</h3>
+                                    <p>Secure login with tailored access for Farmers and Employees using ASP.NET Identity.</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-3 col-md-6">
+                            <div class="service-item">
+                                <span class="number">06</span>
+                                <div class="service-item-icon">
+                                    <i class="fas fa-database fa-2x"></i>
+                                </div>
+                                <div class="service-item-content">
+                                    <h3 class="service-heading">Database Integration</h3>
+                                    <p>All product and farmer data is stored securely using Entity Framework and SQL Server.</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-3 col-md-6">
+                            <div class="service-item">
+                                <span class="number">07</span>
+                                <div class="service-item-icon">
+                                    <i class="fas fa-mobile-alt fa-2x"></i>
+                                </div>
+                                <div class="service-item-content">
+                                    <h3 class="service-heading">Mobile-Friendly Design</h3>
+                                    <p>Responsive web design ensures all users can access features from any device.</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-3 col-md-6">
+                            <div class="service-item">
+                                <span class="number">08</span>
+                                <div class="service-item-icon">
+                                    <i class="fas fa-book fa-2x"></i>
+                                </div>
+                                <div class="service-item-content">
+                                    <h3 class="service-heading">Documentation & Support</h3>
+                                    <p>Detailed guides and support ensure users can easily navigate the platform.</p>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- /Services Section -->
+        <!-- About Section -->
+        <section id="about" class="about section">
+
+            <div class="content">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-6 mb-4 mb-lg-0">
+                            <img src="img/img_long_5.jpg" alt="Agri-Energy Connect Platform" class="img-fluid img-overlap" data-aos="zoom-out">
+                        </div>
+                        <div class="col-lg-5 ml-auto" data-aos="fade-up" data-aos-delay="100">
+                            <h3 class="content-subtitle text-white opacity-50">Why Choose Agri-Energy Connect</h3>
+                            <h2 class="content-title mb-4">
+                                Empowering <strong>Agriculture</strong> with Renewable Energy Solutions
+                            </h2>
+                            <p class="opacity-50">
+                                Agri-Energy Connect is dedicated to revolutionizing the agricultural sector by connecting farmers and businesses with sustainable energy solutions. Our platform helps to reduce energy costs, promote eco-friendly practices, and increase productivity in farming operations.
+                            </p>
+
+                            <div class="row my-5">
+                                <div class="col-lg-12 d-flex align-items-start mb-4">
+                                    <i class="bi bi-sun me-4 display-6"></i>
+                                    <div>
+                                        <h4 class="m-0 h5 text-white">Harness Renewable Energy</h4>
+                                        <p class="text-white opacity-50">Access cutting-edge solar, wind, and bioenergy solutions tailored for agriculture.</p>
+                                    </div>
+                                </div>
+                                <div class="col-lg-12 d-flex align-items-start mb-4">
+                                    <i class="bi bi-leaf me-4 display-6"></i>
+                                    <div>
+                                        <h4 class="m-0 h5 text-white">Reduce Carbon Footprint</h4>
+                                        <p class="text-white opacity-50">Adopt green energy technologies that help reduce environmental impact.</p>
+                                    </div>
+                                </div>
+                                <div class="col-lg-12 d-flex align-items-start">
+                                    <i class="bi bi-bar-chart me-4 display-6"></i>
+                                    <div>
+                                        <h4 class="m-0 h5 text-white">Boost Efficiency & Savings</h4>
+                                        <p class="text-white opacity-50">Optimize energy consumption, lower operational costs, and improve overall farm productivity.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section><!-- /About Section -->
+   
+
+        <div class="container">
+            <main role="main" class="pb-3">
+                @RenderBody()
+            </main>
+        </div>
+
+    </main>
+
+   
+    <!-- Scroll Top -->
+    <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+    <!-- Preloader -->
+    <div id="preloader"></div>
+
+    <!-- Vendor JS Files -->
+    <script src="lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/php-email-form/validate.js"></script>
+    <script src="lib/aos/aos.js"></script>
+    <script src="lib/swiper/swiper-bundle.min.js"></script>
+    <script src="lib/glightbox/js/glightbox.min.js"></script>
+
+    <!-- Main JS File -->
+    <script src="js/main.js"></script>
+
+    <script src="~/lib/jquery-validation/dist/jquery.validate.min.js"></script>
+    <script src="~/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js"></script>
+    @section Scripts {
+        <partial name="_ValidationScriptsPartial" />
+    }
+
+
+    @await RenderSectionAsync("Scripts", required: false)
+    
+
+</body>
+
+</html>
+
